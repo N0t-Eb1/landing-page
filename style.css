@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.nav-hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    padding: 20px 300px 160px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-header {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 4px;
+}
+
+.hero-image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 550px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 3.5rem;
+    color: #f9faf8;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-button {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f9faf8;
+    background-color: #3882f6;
+    align-self: flex-start;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.image {
+    width: 550px;
+}
