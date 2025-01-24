@@ -137,7 +137,7 @@ body {
 }
 
 
-/* section 2 */
+/* section 3 */
 
 
 .qoute {
@@ -160,4 +160,54 @@ body {
     font-weight: bold;
     align-self: flex-end;
     margin-right: 45px;
+}
+
+
+/* section 4 */
+
+
+.sign-up {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.sign-up-container {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    gap: 400px;
+    padding: 60px 140px;
+    border-radius: 9px;
+}
+
+.sign-up-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sign-up-header {
+    font-size: 26px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.sign-up-text {
+    font-size: 20px;
+    color: #cfe0ff;
+}
+
+.sign-up-button {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f9faf8;
+    align-self: flex-start;
+    padding: 10px 30px;
+    border: 3px solid white;
+    border-radius: 10px;
+    align-self: center;
 }
